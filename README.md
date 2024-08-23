@@ -4,10 +4,10 @@ This repository is based on the [Chainlink CCIP Starter Kit](https://github.com/
 
 ## Features
 
-- **TransferUSDC.sol contract:** Implements the cross-chain USDC transfer logic as provided in the [CCIP Day 3 Bootcamp Homework](https://cll-devrel.gitbook.io/ccip-bootcamp/day-3/day-3-homework).
-- **Custom helpers:** Added helper modules for managing token addresses, funding wallets, and handling other utilities.
-- **CCIP fork simulator:** Utilizes Chainlink's CCIP fork simulator to test cross-chain functionalities in a controlled environment.
-- **Wallet funding with impersonation:** For testing, we use Hardhat's impersonation feature to fund wallets with required tokens.
+- **TransferUSDC.sol contract:** implements the cross-chain USDC transfer logic as provided in the [CCIP Day 3 Bootcamp Homework](https://cll-devrel.gitbook.io/ccip-bootcamp/day-3/day-3-homework).
+- **Custom helpers:** added helper modules for managing token addresses, funding wallets, and handling other utilities.
+- **CCIP fork simulator:** utilizes Chainlink's CCIP fork simulator to test cross-chain functionalities in a controlled environment.
+- **Wallet funding with impersonation:** for testing, there is Hardhat's impersonation feature to fund wallets with required tokens.
 
 ## Setup Instructions
 
@@ -54,11 +54,9 @@ This will execute the tests, including the ones that utilize Chainlink's CCIP fo
 
 ## Project Structure
 
-- **contracts/**: Contains the TransferUSDC.sol contract and any other Solidity contracts.
-- **helpers/**: Contains helper modules for token management, funding wallets, and other utilities.
-- **test/**: Contains the test files, including the test for TransferUSDC.sol.
-- **scripts/**: Scripts for deployment and other automation tasks (if any).
-- **.env.enc**: Encrypted environment variable configuration file managed by `@chainlink/env-enc`.
+- **contracts/**: contains the TransferUSDC.sol contract and any other Solidity contracts.
+- **helpers/**: contains helper modules for token management, funding wallets, and other utilities.
+- **test/**: contains the test files, including the test for TransferUSDC.sol.
 
 ## Useful Links
 
