@@ -54,15 +54,15 @@ This will execute the tests, including the ones that utilize Chainlink's CCIP fo
 
 ## Project Structure
 
-- **contracts/**: contains the TransferUSDC.sol contract and any other Solidity contracts.
-- **helpers/**: contains helper modules for token management, funding wallets, and other utilities.
-- **test/**: contains the test files, including the test for TransferUSDC.sol.
+- **contracts/**: the TransferUSDC.sol contract and any other Solidity contracts.
+- **helpers/**: helper modules for token management, funding wallets, and other utilities.
+- **test/**: the test files, including the test for TransferUSDC.sol.
 
 ## Useful Links
 
-- [CCIP Day 3 Bootcamp Homework](https://cll-devrel.gitbook.io/ccip-bootcamp/day-3/day-3-homework): Source of the TransferUSDC.sol contract and homework details.
-- [Chainlink CCIP Starter Kit](https://github.com/smartcontractkit/ccip-starter-kit-hardhat/tree/main): The starter kit this project is based on.
-- [CCIP Gas Estimation Tutorial](https://docs.chain.link/ccip/tutorials/ccipreceive-gaslimit#gas-estimation-on-a-testnet): Guide on estimating gas usage for cross-chain interactions.
+- [CCIP Day 3 Bootcamp Homework](https://cll-devrel.gitbook.io/ccip-bootcamp/day-3/day-3-homework): source of the TransferUSDC.sol contract and homework details.
+- [Chainlink CCIP Starter Kit](https://github.com/smartcontractkit/ccip-starter-kit-hardhat/tree/main): the starter kit this project is based on.
+- [CCIP Gas Estimation Tutorial](https://docs.chain.link/ccip/tutorials/ccipreceive-gaslimit#gas-estimation-on-a-testnet): guide on estimating gas usage for cross-chain interactions.
 
 ## License
 
